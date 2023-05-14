@@ -11,29 +11,36 @@
 <body>
 
     <section id="ingreso-texto">
-        <p>Ingrese su texto aca</p>
+        <p>Ingresa tu texto aquí</p>
         <textarea id="textoEntrada"></textarea>
     </section>
 
     <section id = "botones">
-    <nav style="cursor: pointer">
-        <ul>
-            <li id="encriptar" >
-                Encriptar
-                <span ></span><span></span><span></span><span></span>
-            </li>
-            <li id="desencriptar">
-                Desencriptar
-                <span></span><span></span><span></span><span></span>
-            </li>
-        </ul>
-    </nav>
+        <nav style="cursor: pointer">
+            <ul>
+                <li id="encriptar" >
+                    Encriptar
+                    <span ></span><span></span><span></span><span></span>
+                </li>
+                
+                <li id="desencriptar">
+                    Desencriptar
+                    <span></span><span></span><span></span><span></span>
+                </li>
+                <li id="copiar-texto">
+                    Copiar Texto
+                    <span></span><span></span><span></span><span></span>
+                </li>
+
+            </ul>
+        </nav>
     </section>
 
     <section id="salida-texto">
-        <p>Tu texto aparecerá acá</p>
-        <textarea id="textoSalida"></textarea>
+        <p>Tu texto aparecerá aquí</p>
+        <textarea id="textoSalida" readonly></textarea>
     </section>
+
 <script src="main.js"></script>
 </body>
 </html>
